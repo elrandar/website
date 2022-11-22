@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://al-bo.netlify.app/
 languageCode: en-us
 title: albo.dev
 theme: "PaperMod"
