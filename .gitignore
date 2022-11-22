@@ -1,0 +1,5 @@
+# HUGO files
+
+*.lock
+# public dir
+public/*
