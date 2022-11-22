@@ -1,0 +1,50 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: albo.dev
+theme: "PaperMod"
+
+menu:
+    main:
+      - identifier: home
+        name: home
+        url: /
+        weight: 10
+      - identifier: about
+        name: about
+        url: /about/
+        weight: 20
+      - identifier: projects
+        name: projects
+        url: /projects/
+        weight: 30
+      - identifier: blog
+        name: blog
+        url: /posts/
+        weight: 40
+
+params:
+
+  defaultTheme: light
+  disableThemeToggle: false
+  
+
+  profileMode:
+    title: Hi, I'm Alexandre
+    # imageUrl: "https://media-exp1.licdn.com/dms/image/C5603AQESDGTP97nH-g/profile-displayphoto-shrink_800_800/0/1581411835677?e=1674691200&v=beta&t=6QiO74Pr0I_fgdr4Inmn9D7w-Mu1ByMspSG91eXqvuw"
+    enabled: true
+    subtitle: "Machine Learning Engineer"
+    buttons:
+      - name: About
+        url: "about"
+      - name: Resume
+      # - name: Blog
+    
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/elrandar"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/alexandre-bourquelot"
+    # - name: "twitter"
+    #   url: "https://twitter.com"
+    - name: "email"
+      url: "mailto:alexandre.bourquelot@gmail.com"
