@@ -36,18 +36,23 @@ cover:
 #     appendFilePath: true # to append file path to Edit link
 ---
 
-This is my first blog post ever. It's going to be very short introducing me, this website and why I decided to create it.
+Hello and welcome to my first blog post! My name is **Alexandre Bourquelot** and I am at the time of writing **machine learning research intern** at [Siemens Healthineers](https://www.siemens-healthineers.com/). I am excited to share with you a little bit about myself, this website, and the reasons behind why I decided to create it. So grab a cup of coffee (or a cold beer if that's more your thing) and let's dive in!
 
 <!--more-->
 
-## Hello
+## About Me
 
-I am Alexandre Bourquelot, at the time of writing **Machine learning research intern** at **Siemens Healthineers**.
+I am a recent graduate from the École Pour l'Informatique et les Techniques Avancées ([EPITA](https://www.epita.fr/)) in **Paris**, where I studied computer science and specialized in image processing and artificial intelligence. During my studies, I had the opportunity to work on a number of interesting projects, including developing a machine learning model to classify medical images or using artificial intelligence to turn real images into Ukiyo-e.
 
-My interests include, but are not limited to :
-- THis
-- that
-- also this
+## Interests
+
+As a machine learning enthusiast, I am always on the lookout for new and exciting ways to apply this technology to solve real-world problems. Some of my specific interests include:
+- Image processing
+- Augmented and virtual reality
+- Computer vision
+- Computer graphics
+
+I am also interested in exploring the ethical implications of these technologies and how we can ensure that they are used for the benefit of society (and not just to create killer robots that will eventually take over the world).
 
 ## What you will find here
 
@@ -58,4 +63,12 @@ It is also a good pretext to learn about **web developpement**, which I was not 
 
 ## Website tech
 
-After looking at the differents options available to me, I chose to use [Hugo](https://gohugo.io/) since it is very fast and lightweight and allows me to write all of my content in [markdown](https://www.markdownguide.org/).
+After carefully evaluating my options, I decided to use [Hugo](https://gohugo.io/) for this website because it is fast and user-friendly. 
+
+I also love that I can write all of my content in markdown, which makes the process of creating posts much easier. In addition to Hugo, I am using a number of other tools and technologies to build and maintain this website, including [Git](https://git-scm.com/) for version control and [Netlify](https://www.netlify.com/) for deployment and hosting.
+
+## Thanks!
+
+Thank you for taking the time to read my first blog post. 
+
+If you have any questions or suggestions, please feel free to contact me through the website or social media. Thank you again for visiting, and I look forward to sharing more with you in the future!
