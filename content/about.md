@@ -1,12 +1,12 @@
 ---
-title: "Hi"
-layout: "default"
+title: "About"
+layout: "single"
 url: "/about/"
+hideTitle: true
 # summary: archives
 ---
 
-<!-- # Hi -->
-
+# Hi!
 I am **Alexandre Bourquelot**, a Machine learning research intern within the cardiovascular team at **[Siemens Healthineers](https://www.siemens-healthineers.com/)**.
 My current job consist of nanana.
 
