@@ -1,7 +1,7 @@
 ---
 title: "Welcome!"
 date: 2022-12-03T11:30:03+00:00
-tags: ["misc"]
+tags: ["misc", "blog"]
 # author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: false
