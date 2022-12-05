@@ -5,4 +5,4 @@ url: "/projects/"
 # summary: archives
 ---
 
-Here are some projects
+Here are some projects that I worked on. You can find more on my [Github](http://www.github.com/elrandar).

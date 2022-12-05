@@ -40,7 +40,7 @@
 
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
@@ -62,28 +62,49 @@
 {{- end }}
 
 <article class="{{ $class }}">
-  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
     <h2>
       {{- .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h2>
   </header>
-  {{- if (ne (.Param "hideSummary") true) }}
-  {{ .Description}}
-  {{ .Content}}
-  {{.Params.Tags}}
-  <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  <div class="image-content">
+
+    <div class="cover-info">
+      {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+      {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+    </div>
+    <div class="project-info">
+      <div class="project-content">
+        {{ .Content}}
+        {{- if (ne (.Param "hideSummary") true) }}
+        <div class="entry-content">
+          <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+        </div>
+        {{- end }}
+        {{- if not (.Param "hideMeta") }}
+      </div>
+      <div class="project-go-to-repo">
+        <a href="{{ (.Param "githubLink") }}">Link to repo</a>
+      </div>
+
+      {{- end }}
+    </div>
+
   </div>
-  {{- end }}
-  {{- if not (.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
-  </footer>
-  {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  <div class="footer-tags">
+    <footer class="entry-footer">
+      {{- partial "post_meta.html" . -}}
+    </footer>
+
+    <ul class="post-tags">
+      {{- range $tag := .Params.Tags }}
+      <li><a href="">{{$tag}}</a></li>
+      {{- end }}
+    </ul>
+
+  </div>
+
 </article>
 {{- end }}
 
