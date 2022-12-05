@@ -40,4 +40,4 @@ cover:
 ---
 
 
-A simple raytracer written from scratch in C++. Also includes grass and terrain generation.
+A simple raytracer written from scratch in **C++**. Also includes **grass** and **terrain** generation.

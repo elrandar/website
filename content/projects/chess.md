@@ -40,4 +40,4 @@ cover:
 ---
 
 
-A chess AI and engine written entirely from scratch, in C++.
+A chess **AI** and **engine** written entirely from scratch, in **C++**.
