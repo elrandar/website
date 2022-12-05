@@ -36,7 +36,10 @@ params:
     buttons:
       - name: About
         url: "about"
+      - name: Projects
+        url: "projects"
       - name: Resume
+        url: "resume_bourquelot.pdf"
       # - name: Blog
     
   socialIcons:
