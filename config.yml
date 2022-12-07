@@ -32,7 +32,7 @@ params:
     title: Hi, I'm Alexandre Bourquelot
     # imageUrl: "https://media-exp1.licdn.com/dms/image/C5603AQESDGTP97nH-g/profile-displayphoto-shrink_800_800/0/1581411835677?e=1674691200&v=beta&t=6QiO74Pr0I_fgdr4Inmn9D7w-Mu1ByMspSG91eXqvuw"
     enabled: true
-    subtitle: "Machine Learning Engineer"
+    subtitle: "Software Engineer"
     buttons:
       - name: About
         url: "about"
