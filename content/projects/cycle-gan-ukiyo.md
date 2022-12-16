@@ -25,7 +25,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: false
-githubLink: https://github.com/elrandar/
+githubLink: https://github.com/elrandar/cyclegan-ukiyo-e
 cover:
     image: "images/estampe.png" # image path/url
     alt: "<alt text>" # alt text

@@ -32,7 +32,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
     responsiveImages: true
-githubLink : "https://github.com/elrandar"
+githubLink : "https://github.com/elrandar/furiganaifier"
 # editPost:
 #     URL: "https://github.com/<path_to_repo>/content"
 #     Text: "Suggest Changes" # edit text
